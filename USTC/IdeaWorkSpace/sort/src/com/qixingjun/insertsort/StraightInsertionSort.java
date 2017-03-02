@@ -25,8 +25,8 @@ public class StraightInsertionSort {
 
     public static void insertSort(int[] arr){
         int size = arr.length;
-        int temp = 0;
-        int j = 0;
+        int temp;
+        int j;
         for (int i = 0; i < size; i++) {
             temp = arr[i];
             //假如temp比前面的值小，则将前面的值后移
